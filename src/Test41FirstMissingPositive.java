@@ -1,5 +1,5 @@
 
-public class FirstMissingPositive {
+public class Test41FirstMissingPositive {
 	public int firstMissingPositive(int[] nums) {
 		int i = 0;
 		while(i < nums.length){

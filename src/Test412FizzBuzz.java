@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class FizzBuzz {
+public class Test412FizzBuzz {
 	public List<String> fizzBuzz1(int n) {
         List<String> li = new LinkedList<String>();
         int i = 1;

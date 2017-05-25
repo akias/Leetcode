@@ -1,5 +1,5 @@
 
-public class TwoSum {
+public class Test1TwoSum {
 	public class Solution {
 	    public int[] twoSum1(int[] nums, int target) {
 	        int [] ret = {0,0};

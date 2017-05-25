@@ -1,9 +1,9 @@
 
 public class Test {
 	public static void main(String args[]){
-	FirstMissingPositive fmp = new FirstMissingPositive();
-	int[] nums = {1,2,0,-4,5,6,3,88};
-	int i = fmp.firstMissingPositive(nums);
+	Test35SearchInsertPosition sip = new Test35SearchInsertPosition();
+	int[] nums = {-5,-3,1,6};
+	int i = sip.searchInsert2(nums,0);
 	System.out.print(i);
 	}
 }

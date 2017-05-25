@@ -1,5 +1,5 @@
 
-public class RemoveDuplicatesFromSortedArray {
+public class Test26RemoveDuplicatesFromSorterArray {
 	public int removeDuplicates(int[] nums) {
 	int i = 0;
     for (int n : nums)
