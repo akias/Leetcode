@@ -1,9 +1,9 @@
 
 public class Test {
 	public static void main(String args[]){
-	Test35SearchInsertPosition sip = new Test35SearchInsertPosition();
-	int[] nums = {-5,-3,1,6};
-	int i = sip.searchInsert2(nums,0);
+	Test53MaximumSubarray sip = new Test53MaximumSubarray();
+	int[] nums = {7,5,-13,-5,-3,1,6,-6,4,3,1};
+	int i = sip.maxSubArray(nums);
 	System.out.print(i);
 	}
 }
