@@ -21,8 +21,8 @@ public class Test15ThreeSum {
 			if(nums[low] + nums[high] + target == 0){
 				List<Integer> ans = new ArrayList<Integer>();
 				ans.add(target);
-				ans.add(low);
-				ans.add(high);
+				ans.add(nums[low]);
+				ans.add(nums[high]);
 				li.add(ans);
 				while(low < high && nums[low] == nums[low+1]) low++ ;
 				while(low < high && nums[high] == nums[high-1]) high--;
