@@ -1,13 +1,23 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test {
 	public static void main(String args[]){
-	Test119PascalTriangle2 pt = new Test119PascalTriangle2();
-	List<Integer> li = new ArrayList<Integer>();
-	li = pt.getRow3(3);
-	for(int i = 0;i<li.size();i++){
-		System.out.println(li.get(i));
-	}
-	}
+		Test122BestTimetoBuyandSellStock2 btbs = new Test122BestTimetoBuyandSellStock2();
+		int[] prices = {1,2,4};
+		System.out.println(btbs.maxProfit(prices));
+		
+		//シングルクォーテーションとダブルクォーテーション　matchesできます
+		String tmpString = "wode\\nidetade";  
+		System.out.println(tmpString);
+		System.out.println(tmpString.matches(".*[\'\\\\]+.*"));
+		System.out.println(tmpString.replaceAll("\\\\", "\\\\\\\\"));
+        System.out.println(tmpString.matches(".*[\'\\\\]+.*"));
+        
+        //シングルバックスラッシュはmatchesできません、タブルバックスラッシュはmatchesできます
+        String tmpString2 = "wode\nidetade";  
+        System.out.println(tmpString2.matches(".*[\'\\\\]+.*"));
+        
+        String tmpString3 = "wode\\nided";
+        System.out.println(tmpString3);
+        System.out.println(tmpString3.replaceAll("\\\\", "\\\\\\\\"));
+}
 }
