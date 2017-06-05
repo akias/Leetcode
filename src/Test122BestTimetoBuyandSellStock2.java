@@ -1,6 +1,6 @@
 
 public class Test122BestTimetoBuyandSellStock2 {
-	//此方法不可行，1，2，3的形式无法得到争取答案。
+	//此方法不可行，1，2，3的形式无法得到正确答案。
 	public int maxProfit(int[] prices) {
 		int max = 0;
 		int sum = 0;
