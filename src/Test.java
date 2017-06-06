@@ -3,10 +3,10 @@ import java.util.List;
 
 public class Test {
 	public static void main(String args[]){
-		Test229MajorityElement btbs = new Test229MajorityElement();
-		int[] prices = {1,1,1};
+		Test189RotateArray btbs = new Test189RotateArray();
+		int[] prices = {1,3,1,5,4,3,2,7};
 		List<Integer> re = new ArrayList<Integer>();
-		re = btbs.majorityElement2(prices);
+		btbs.rotate(prices, 4);
 		System.out.println(re);
 		//シングルクォーテーションとダブルクォーテーション　matchesできます
 		//String tmpString = "wode\\nidetade";  
