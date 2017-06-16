@@ -9,7 +9,7 @@ public class Test11ContainerWithMostWater {
 	 * all we need to do is to find a smart way of scan to cut off the 
 	 * useless cases and meanwhile 100% guarantee the max value can be 
 	 * reached through the rest of cases.
-	 * In this problem, the smart scan way 
+	 * In this problem, the smart scan way
 	 * is to set two pointers initialized at both ends of the array.
 	 * Every time move the smaller value pointer to inner array. 
 	 * Then after the two pointers meet, 
