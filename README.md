@@ -20,3 +20,5 @@ Leetcode test 11 Container With Most Water
 
 这里有一个写的很好的动态规划的解析
 http://www.360doc.com/content/17/0616/10/44379516_663575051.shtml
+
+Leetcode twoSum ThreeSum FourSum...KSum
