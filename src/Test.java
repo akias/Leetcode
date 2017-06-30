@@ -1,12 +1,10 @@
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Test {
 	public static void main(String args[]){
-		Test189RotateArray btbs = new Test189RotateArray();
-		int[] prices = {1,3,1,5,4,3,2,7};
-		List<Integer> re = new ArrayList<Integer>();
-		btbs.rotate(prices, 4);
+		Test33SearchInRotatedArray btbs = new Test33SearchInRotatedArray();
+		int[] prices = {5,1,3};
+		int re = btbs.search(prices, 3);
 		System.out.println(re);
 		//シングルクォーテーションとダブルクォーテーション　matchesできます
 		//String tmpString = "wode\\nidetade";  
@@ -24,5 +22,5 @@ public class Test {
         //String tmpString3 = "wode\\nided";
         //System.out.println(tmpString3);
         //System.out.println(tmpString3.replaceAll("\\\\", "\\\\\\\\"));
-}
+	}
 }
